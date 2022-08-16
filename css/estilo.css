@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6{
 .top-content{
     padding: 1em;
     text-align: center;
-    background: #f6f6f6;
+    background: #f0efef;
 }
 
 .top-content-title{
@@ -68,4 +68,26 @@ h1, h2, h3, h4, h5, h6{
     color: #a87bb7;
     font-size: 1em;
     line-height: 1.5;
+}
+
+.middle-content{
+    padding: 2em;
+    background: #f0efef;
+    text-align: center;
+}
+
+.middle-content p{
+    line-height: 1.5;
+    color: #222;
+}
+
+.middle-content span[class^=icon]{
+    font-size: 3.5em;
+    color:#652e78;
+}
+
+.middle-content-title{
+    font-size: 1.25em;
+    color: #652e79;
+    text-transform: uppercase;
 }
